@@ -781,7 +781,7 @@
       selectOnTab: {
         type: Boolean,
         default: false
-      }
+      },
 
         /**
          * Sets dropdown direction.
