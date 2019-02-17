@@ -1146,7 +1146,7 @@
           unsearchable: !this.searchable,
           loading: this.mutableLoading,
           'direction-top': this.direction === 'top',
-          'direction-bottom': this.direction === 'bottom'
+          'direction-bottom': this.direction === 'bottom',
           rtl: this.dir === 'rtl', // This can be removed - styling is handled by `dir="rtl"` attribute
           disabled: this.disabled
         }
