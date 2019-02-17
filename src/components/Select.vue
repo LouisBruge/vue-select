@@ -921,7 +921,7 @@
           })
           this.mutableValue = this.mutableValue.filter(entry => entry !== ref)
         } else {
-          this.mutableValue = null
+          this.mutableValue = this.mutableValue;
         }
         this.onInput(this.mutableValue);
       },
